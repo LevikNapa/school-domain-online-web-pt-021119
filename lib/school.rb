@@ -28,7 +28,9 @@ def grade(level)
     end 
   end 
   
-  
+  def sort 
+    roster.sort = []
+end
   
   
 end

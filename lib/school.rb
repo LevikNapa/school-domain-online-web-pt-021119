@@ -31,7 +31,7 @@ def grade(level)
   def sort
     second_hash = {}
     roster.each do |y, z|
-      second_hash(y) = z.sort
+      second_hash[y] = z.sort
     end
 end
   

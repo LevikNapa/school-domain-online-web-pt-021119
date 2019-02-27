@@ -28,8 +28,11 @@ def grade(level)
     end 
   end 
   
-  def sort 
-    roster.sort = []
+  def sort
+    second_hash = {}
+    roster.each do |y, z|
+      second_hash(y) = z.sort
+    end
 end
   
   

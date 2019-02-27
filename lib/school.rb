@@ -33,6 +33,7 @@ def grade(level)
     roster.each do |y, z|
       second_hash[y] = z.sort
     end
+    second_hash
 end
   
   
